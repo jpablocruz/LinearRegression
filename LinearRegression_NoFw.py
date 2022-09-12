@@ -75,8 +75,8 @@ def evaluate_algorithm(dataset, porcentaje): ########
 		set_prueba.append(datos_aux)
 	estimado = regresionLineal_smpl(train, set_prueba)
 	real = [x[-1] for x in test]
-	error_rmse = error_rmse(real, estimado)
-	return error_rmse
+	error = error_rmse(real, estimado)
+	return error
 
 def columna_a_numero(datos, columna):
 	for x in datos:
