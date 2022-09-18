@@ -1,5 +1,8 @@
 #Modelo de Regresion Lineal desde cero sin el uso de un "Framework"
 #José Pablo Cruz Ramos - A01138740
+
+#para poder correr el programa se necesitan de las siguientes librerias, son librerias basicas que no estan ligadas con librerias para implementar 
+# modelos de estimacion, por lo que no hay problema al utilizarlos.
 from cmath import sqrt
 from csv import reader
 from random import randrange
