@@ -14,6 +14,8 @@ Entre estas funciones encontramos:
 - r_sqrd() calcula la R cuadrada del modelo generado. 
 - train_test_muestra() se encarga de separar los datos en un conjunto de prueba y otro de entrenamiento
   para poder hacer que aprenda nuestro modelo, en este caso optamos por dividir la muestra un 60 a 40 porciento.
+- regresionLineal_smpl() se encarga de generar los datos estimados y los guarda en una lista la cual devuelve para que estos
+  sean comparados con los datos reales en la formula del error rmse.
   
   Lo que el programa despliega es una serie de informacion relacionada al modelo. 
   
